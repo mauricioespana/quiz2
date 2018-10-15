@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { BocinaPage } from '../pages/bocina/bocina';
 import { SmartPage } from '../pages/smart/smart';
+import { TvPage } from '../pages/tv/tv';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     BocinaPage,
-    SmartPage
+    SmartPage,
+    TvPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { SmartPage } from '../pages/smart/smart';
     MyApp,
     HomePage,
     BocinaPage,
-    SmartPage
+    SmartPage,
+    TvPage
   ],
   providers: [
     StatusBar,
