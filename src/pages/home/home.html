@@ -1,14 +1,20 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Dispositivos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-row>
+    <button ion-button color="danger" round (click)="clickBocina()">Bocina</button>
+    <button ion-button round >TV</button>
+  </ion-row>
+
+  <ion-row>
+    <button ion-button color="Default" round >Smartphone</button>
+    <button ion-button color="danger" round  >Lámpara</button>
+  </ion-row>
+
 </ion-content>
