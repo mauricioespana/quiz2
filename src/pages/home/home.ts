@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { BocinaPage } from '../bocina/bocina';
 import { SmartPage } from '../smart/smart';
 import { TvPage } from '../tv/tv';
+import { LampPage } from '../lamp/lamp';
 
 @Component({
   selector: 'page-home',
@@ -12,6 +13,8 @@ export class HomePage {
   boc = BocinaPage;
   smart = SmartPage;
   tv  = TvPage;
+  lamp = LampPage;
+
   constructor(public navCtrl: NavController) {
 
   }
@@ -24,5 +27,8 @@ export class HomePage {
   }
   clickTv(){
     this.navCtrl.push(this.tv);
+  }
+  clickLamp(){
+    this.navCtrl.push(this.lamp);
   }
 }

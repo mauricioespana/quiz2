@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { BocinaPage } from '../pages/bocina/bocina';
 import { SmartPage } from '../pages/smart/smart';
 import { TvPage } from '../pages/tv/tv';
+import { LampPage } from '../pages/lamp/lamp';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TvPage } from '../pages/tv/tv';
     HomePage,
     BocinaPage,
     SmartPage,
-    TvPage
+    TvPage,
+    LampPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { TvPage } from '../pages/tv/tv';
     HomePage,
     BocinaPage,
     SmartPage,
-    TvPage
+    TvPage,
+    LampPage
   ],
   providers: [
     StatusBar,
